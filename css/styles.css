@@ -679,7 +679,7 @@ img{
   background-color: #404bbf;
 }
 
-input[type="checkbox"]:checked + .chbx-icon{
+.chbx[type="checkbox"]:checked + .lbl-chbx .chbx-icon{
   fill:var(--color-chbx); 
 }
 
