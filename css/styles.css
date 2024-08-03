@@ -1,3 +1,7 @@
+:root{
+  --color-chbx:#F4F4FD;
+}
+
 body{
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -676,7 +680,7 @@ img{
 }
 
 input[type="checkbox"]:checked + .chbx-icon{
-  fill:#F4F4FD; 
+  fill:var(--color-chbx); 
 }
 
 .input-icon-chbx{
