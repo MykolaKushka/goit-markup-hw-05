@@ -610,7 +610,7 @@ img{
   border-color: #4D5AE5; 
 }
 
-.form-input:focus .input-icon{
+.form-input:focus + .input-icon{
   fill: #4D5AE5;
 }
 
@@ -673,11 +673,10 @@ img{
 .chbx[type="checkbox"]:checked + .lbl-chbx .chbx-icon{
   border: none; 
   background-color: #404bbf;
-  fill: #F4F4FD;
 }
 
-.chbx[type="checkbox"]:focus + .lbl-chbx .chbx-icon{
-  fill: #4D5AE5;
+.chbx[type="checkbox"]:checked + .lbl-chbx .input-icon-chbx{
+  fill: #F4F4FD;
 }
 
 .input-icon-chbx{
