@@ -362,7 +362,7 @@
         <p class="form-text">Subscribe</p>
         <form class="form-footer">
           <label class="footer-form-lbl">
-            <input name="company_email" id="company_email" type="email" placeholder="E-mail" class="footer-form-input"/>
+            <input name="subscribe_email" id="subscribe_email" type="email" placeholder="E-mail" class="footer-form-input"/>
           </label>
           <button type="submit" class="footer-form-btn">
             Subscribe
@@ -377,7 +377,7 @@
 
   <div class="modal-wrap">
     <div class="modal">
-      <button class="modal-btn-close">
+      <button type="button" class="modal-btn-close">
         <svg width="8" height="8" class="icon-close">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg>
@@ -386,9 +386,9 @@
       <form>
         <div class="form-inner">
           <label for="user-name" class="form-lbl">Name</label>
-          <div class="input-wrap">
+          <div class="input-wrap input-wrap--active">
             <svg width="18" height="24" class="input-icon">
-              <use href="./images/icons.svg#input-icon"></use>
+              <use href="./images/icons.svg#icon-name"></use>
             </svg>
             <input id="user-name" name="user-name" type="text" class="form-input"/>
           </div>
@@ -418,16 +418,16 @@
         <div class="form-chbx">
           <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="chbx visually-hidden"/>
           <label for="user-privacy" class="lbl-chbx">
-            I accept the terms and conditions of the
-            <a href="#" class="user-privacy-link">Privacy Policy</a>
             <span class="chbx-icon">
-              <svg width="10" height="8" class="input-icon">
+              <svg width="10" height="8" class="input-icon-chbx">
                 <use href="./images/icons.svg#icon-Checkbox"></use>
               </svg>
             </span>
+            I accept the terms and conditions of the
+            <a href="#" class="user-privacy-link">Privacy Policy</a>
           </label>
         </div>
-        <button class="form-btn">Send</button>
+        <button type="button" class="form-btn">Send</button>
       </form>
     </div>
   </div>
